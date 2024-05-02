@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.secaoDiv{
+    display: flex;
+    flex-direction: column;
+    width: 200vh;
+    row-gap: 20px;
+    padding-left: 30vh;
+    margin: 100px;
+    max-width: 150vh;
+}
+
+.imgCapaDiv{
+    width: 100%;
+    height: 800px;
+    background-image: url(DR\ ESTRANHO/img/capa.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    color: white;
+}
+
+h1{
+    background-color: black;
+    padding: 30px;
+}
+
+h2{
+    background-color: #FD0100;
+    padding: 30px;
+}
+
+.imgDrEstranho{
+    width: 100%;
+    height: 600px;
+    background-image: url(DR\ ESTRANHO/img/img1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pSinopse{
+    text-align: justify;
+}
+
+.allContentContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.emBreveDiv{
+    background-color: #FD0100;
+    padding: 40px;
+    width: 185px;
+    align-items: center;
+    color: white;
+    border-radius: 15px;
+}
